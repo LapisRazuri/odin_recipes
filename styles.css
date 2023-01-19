@@ -1,0 +1,44 @@
+h1 {
+    color:rgb(199, 81, 101);
+    text-align: center;
+}
+
+a[href] {
+    color:rgb(199, 81, 101);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+
+}
+
+div {
+    text-align: center;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "\1F338";
+    margin-right: 20px;
+}
+
+
+
+
