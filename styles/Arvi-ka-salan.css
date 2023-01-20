@@ -1,12 +1,12 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;
+    color: rgb(199, 81, 101);
 }
 
 h1{
     text-align: center;
-    color:rgb(4, 89, 4);
-    -webkit-text-stroke: 0.5px orange;
+    color: rgb(199, 81, 101);
+    -webkit-text-stroke: 0.5px rgb(246, 227, 192);
 }
 
 
@@ -15,12 +15,14 @@ img {
     margin-left: auto;
     margin-right:auto;
     height:300px;
-    width:400px
+    width:400px;
+    padding: 15px 15px 0px;
+    background-color: white;
 }
 
 body {
 
-    background-color: black;
+    background-color: antiquewhite;
     }
 
 .text-center {
@@ -50,7 +52,7 @@ li {
     position: absolute;
     right: 20%;
     left:  20%;
-    border: 3px solid rgb(4, 89, 4);
+    border: 3px solid rgb(199, 81, 101);
     border-style: inset;
     border-radius: 8px;
     padding: 5px;
@@ -58,8 +60,8 @@ li {
 
 .text-size {
     font-size: 150%;
-    color:rgb(4, 89, 4);
-    -webkit-text-stroke: 0.5px orange;
+    color:rgb(199, 81, 101);
+    -webkit-text-stroke: 0.5px  rgb(246, 227, 192);
     padding: 0%;
     margin-bottom: 0px;
     margin-top: 50px;
