@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(199, 81, 101);
@@ -6,8 +14,8 @@
 h1{
     text-align: center;
     color: rgb(199, 81, 101);
-    -webkit-text-stroke: 0.5px rgb(246, 227, 192);
 }
+ 
 
 
 img {
@@ -20,6 +28,7 @@ img {
     background-color: white;
 }
 
+
 body {
 
     background-color: antiquewhite;
@@ -29,13 +38,17 @@ body {
     text-align:center;
 }
 
-.list-center, .bullet-points {
+.list-center, .bullet-points, .S-bullet-points {
     display: inline-block;
     list-style-position:inside; 
     text-align: left;
 }
 
-.list-center.bullet-points{
+.list-center.bullet-points {
+    list-style: none;
+}
+
+.list-center.S-bullet-points {
     list-style: none;
 }
 
@@ -43,6 +56,13 @@ body {
     content: "\1FAD1";
     margin-right: 20px;
 }
+
+.list-center.S-bullet-points li::before {
+    content: "\1F353";
+    margin-right: 20px;
+}
+
+
 
 li {
     margin: 10px;
@@ -58,6 +78,31 @@ li {
     padding: 5px;
 }
 
+.S-relative {
+    position: absolute;
+    right: 7%;
+    left:  7%;
+    border: 3px solid rgb(199, 81, 101);
+    background-color: whitesmoke;
+    border-style: inset;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+.S-col-container {
+    display: table;
+    width: 100%;
+      
+}
+
+.col {
+    display: table-cell;
+    padding: 16px;
+}
+
+
+
 .text-size {
     font-size: 150%;
     color:rgb(199, 81, 101);
@@ -66,4 +111,5 @@ li {
     margin-bottom: 0px;
     margin-top: 50px;
 }
+
 
